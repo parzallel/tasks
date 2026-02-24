@@ -1,0 +1,5 @@
+ansible_user : alizadeh 
+ansible_password : alireza3831
+ansible_become: true
+ansible_become_password: alireza3831
+ansible_become_method: sudo 
