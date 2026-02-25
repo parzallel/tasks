@@ -8,8 +8,6 @@ services:
         - 8080:80
       volumes:
         - ./index.html:/usr/share/nginx/html/index.html
-      depends_on:
-        - redis
 
     redis:
       image: redis:latest 

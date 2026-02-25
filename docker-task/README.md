@@ -9,7 +9,7 @@
 
 ## Docker compose:
 - added the two services and bind mounted the ./index.html to directory of nginx and whenever the index.html is changed the change gets placed in realtime and there is no need of reloading.
-- also opened the redis on port 6379 and it starts before nginx.
+- also opened the redis on port 6379.
 
 
 # Challenges :
